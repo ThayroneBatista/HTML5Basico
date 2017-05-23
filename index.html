@@ -18,13 +18,18 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		<![endif]-->
+
 	</head>
-	<body>
-		<!--Container classe padrao do html5 que centraliza o conteudo-->
-		<div class="container">	
-			<header class="header bg-black">
+	<body>	
+		<header class="header bg-black">
+
+			<!--Container classe padrao do html5 que centraliza o conteudo-->
+			<div class="container">
+
+				<!--Todo header precisa de um h1, nem que seja oculto-->
 				<h1 class="oculto">Curso de HTML5</h1>
 
+				<!--alt e o que vai aparecer se a imagem nao for encontrada pelo servidor.. title e o nome da imagem-->
 				<img src="imgs/logo-especializati-branca.png" alt="EspecializaTI" title="Curso de HTML5" class="logo">
 
 				<!--nav define uma secao que contem apenas links de navegacao-->
@@ -50,10 +55,17 @@
 							<a href="">Sobre</a>
 						</li>
 					</ul>
-					<a class="btn-saiba-mais" href="">Saiba Mais</a>
 				</nav>
-			</header>
-		</div>
+				<a class="btn-saiba-mais" href="">Saiba Mais</a>
+			</div>
+		</header>
+
+		<div class="clear"></div>
+
+		<section class="slide background-fixed-1 color-white text-center">
+			<h1 class="titulo-slide">Curso Web Developer</h1>
+			<p class="paragrafo-slide">Desenvolva sites e softwares para a Web de maneira profissional</p>
+		</section>
 
 		<!--JQuery-->
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>

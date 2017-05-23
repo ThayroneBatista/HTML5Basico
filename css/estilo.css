@@ -4,18 +4,31 @@
 	padding: 0px;
 	margin: 0px;
 }
-
 .logo{
 	max-width: 200px;
 	float: left;
 	margin-top: 6px;
 }
+.clear{
+	/*deixa um espaco entre os elementos*/
+	clear: both;
+}
 
 /*Cores*/
+.color-white{
+	color: #FFF;
+}
 
 /*Backgrounds*/
 .bg-black{
 	background: #000;
+}
+
+/*Background Parallax*/
+.background-fixed-1{
+	background-image: url(http://localhost/CursoHTML5EspecializaTI/imgs/background-parallax-home.png);
+	/*Mantem a imagem fixa no fundo*/
+	background-attachment: fixed;
 }
 
 /*Tamanho de fontes*/
@@ -50,4 +63,17 @@ ul.menu li a{
 	color: #FFF;
 	margin-left: 14px;
 	font-size: 18px;
+}
+
+/*Slide--Section*/
+.slide{
+	padding: 110px;
+}
+.titulo-slide{
+	font-size: 52px;
+	font-weight: bold;
+}
+.paragrafo-slide{
+	font-size: 15px;
+	/*font-weight: bold;*/
 }
