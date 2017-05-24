@@ -69,11 +69,17 @@ ul.menu li a{
 .slide{
 	padding: 110px;
 }
-.titulo-slide{
+.titulo-section{
 	font-size: 52px;
 	font-weight: bold;
 }
-.paragrafo-slide{
+.paragrafo-section{
 	font-size: 15px;
-	/*font-weight: bold;*/
 }
+
+/*Detalhes do curso*/
+.detalhes{}
+.titulo-detalhes{
+	font-size: 16px;
+}
+.detalhes-curso{}
